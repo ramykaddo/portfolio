@@ -1,0 +1,70 @@
+body {
+    font-family: 'Exo', sans-serif;
+    background: url(bbg.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    margin: auto 0;
+}
+
+.headr{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headr>h1{
+    font-size: 3.5rem;
+    color: grey;
+    margin: 0;
+  
+}
+
+img{
+    width: 300px;
+    height:300px;
+    opacity: 0.5;
+    transition: transform 0.5s;
+
+}
+
+.proj {
+    padding: 15px;
+}
+img:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+    cursor: crosshair;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.footr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bttn {
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    border-radius: 300px;
+    background-color:#A9A9A9;
+    border-color: #A9A9A9;
+}
+
+.bttn:hover{
+    background-color: #C0C0C0;
+    border-color: #C0C0C0;
+} 
+
+
+ 
+
+
